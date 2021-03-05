@@ -1,0 +1,504 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+}
+
+body{
+    font-family: 'Conv_segoe-ui';
+    margin: 0px;
+    padding: 0px;
+    margin: auto;
+    background: #e8e8e840;
+
+}
+header{
+    position: relative;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: #134369;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FFC107;
+    font-weight: bold;
+}
+
+.loginContainer{
+    background: #ffffff;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+.recuperarCuenta{
+    margin-top: 20px;
+}
+
+.loginHeader{
+    border-top: solid 0.5px #000;
+}
+
+.loginbienvenido{
+    text-align: center;
+}
+
+.inputsubmitLogin{
+    text-align: center;
+}
+
+.loginInicio{
+    min-width: 300px;
+    max-width: 400px;
+    margin: 4vw auto;
+}
+
+.iniciarCon{           
+    margin: auto 4vw;
+    max-width: 400px;
+}
+
+.img-banner{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.loginLogo{
+    width: 250px;
+    margin: 15px auto;
+}
+
+.loginbienvenido{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.loginBody{
+    display: block;
+    text-align: center;
+    padding: 0 35px 30px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.inputsubmitLogin{
+    text-align: center;
+}
+
+.loginRS{
+    width: 80%;
+    padding: 2vw;
+    display: block;
+    margin: 5vw auto;
+    text-align: center;
+    color: white !important;
+    border-radius: 6vw;
+}
+
+.iniciarCon{
+    margin: 10vw 0;
+}
+
+.loginMensaje{
+    font-size: 8px;
+    text-align: center;
+}
+
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: solid 1px #7e9fb9;
+    margin: 10px 0;
+    outline: none;
+}
+
+.boton{
+    border-radius: 0px;
+    border: none;
+    width: 100%;
+    padding: 5px 2px;
+    height: 35px;
+    color: white;
+    background: #F44336;
+    margin: 0;    
+    text-decoration: none;
+    margin-top: 45px;
+    outline: none;
+}
+
+
+/*-------------------------------------------- header ---------------------------------*/
+
+.headAdmin{
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+    max-height: 100px;    
+    background: white;
+    display: flex;
+    box-shadow: 0px 0px 12px 5px #afafaf;
+}
+
+.headAdminPart1{    
+    width: 180px;
+    height: 100%;
+    display: grid;
+    background: #134369;
+}
+
+.headAdminPart1Img{
+    max-width: 115px;
+    margin: auto;
+    display: block;
+}
+
+.headAdminPart2{
+    vertical-align: middle;
+    margin: auto 0px;
+    display: flex;
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+.headAdminPart2Iconos{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    margin: auto;
+}
+
+.headAdminPart2IconosImg{
+    max-width: 50px;
+}
+
+.headAdminPart2IconosContiner{
+    margin: auto;
+}
+
+.adminSubcontainer{    
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;
+}
+
+.listaAdmContainer{
+    width: inherit;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.clientesHeader{
+    width: fit-content;
+    margin: 15px 5px auto auto;
+    text-align: center;
+}
+
+.botonNuevo{
+    width: 180px;    
+    padding: 5px 0;
+    background: #ff2112;
+    color: white;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+}
+
+.tiendasHeaderLinkTexto{
+    margin: auto;
+}
+
+table{
+    max-height: 400px;
+    overflow: scroll;
+    margin: 25px auto 45px;
+    background: white;
+    font-size: 15px;
+    box-shadow: 0px 8px 19px -10px #6b6b6b;
+    overflow-y: scroll;
+}
+
+table thead {
+    box-shadow: 0px 9px 6px -8px #6b6b6b;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+table tr{
+    height: 35px;
+}
+
+table td{
+    padding: 0 10px 0 10px;
+    min-width: 40px;
+}
+
+.listaAdmNombre{
+    background: #e8e8e8;
+}
+
+.fotosProductosLista{    
+    display: flex;
+    flex-wrap: wrap;
+    width: 110px;
+    justify-content: center;
+}
+
+.fotosProductosListaIMG{
+    max-width: 35px;
+    margin: 3px;
+    display: block;
+}
+
+.botonActivo{
+    width: 180px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+}
+
+.inputContiner{
+    max-width: 250px;
+    font-size: 12px;
+    margin: 15px auto;
+    min-width: 150px;
+}
+
+.formColumContainer{    
+    display: block;
+    justify-content: center;    
+    padding-top: 35px;
+    padding-bottom: 40px;
+}
+
+.formColum{
+    margin: 0 15px;
+}
+
+.datos{
+    background: white;
+    margin-top: 5px;
+    padding-bottom: 45px;
+}
+
+.inputDatos{
+    margin: 0;
+}
+
+.map{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    margin-top: 45px;
+}
+
+.inputCheck{
+    text-align: center;
+}
+
+.ubicacionLATLNG{
+    display: flex;
+}
+
+.imgAdmin{
+    margin: 15px auto;
+    max-width: 250px;
+    max-height: 90px;
+    display: block;
+}
+
+.imgProductoAdmin{
+    margin: 15px auto;
+    width: 200px;
+    display: block;
+    height: 200px;
+}
+
+.imagenesAdminTitulo{
+    margin: 35px auto 0;
+    font-size: 25px;
+    background: #dbeef1;
+    padding: 10px 70px;
+    box-shadow: 1px 4px 4px -2px #c3c3c3;
+}
+
+.botonGuardar{
+    height: 45px;
+    width: 250px;
+    border-radius: 22px;
+    border: none;
+    background: #134369;
+    color: white;
+    font-size: 18px;
+    display: block;
+    margin: 15px auto;
+}
+
+.espcificacioneTd{
+    max-width: 125px;
+}
+
+.mensajeAlerta{
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;    
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background: #1010108c;
+    display: grid;
+}
+
+.mensajeAlerta div{
+    margin: auto;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #ff5722;
+    width: 250px;
+    height: 150px;
+}
+
+.mensajeAlerta b{
+    display: block;
+    font-size: 20px;
+}
+
+.botonProductosNuevo{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #8BC34A;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    display: grid;
+}
+
+.botonProductosNuevo div{
+    display: grid;
+    margin: auto;
+}
+
+.botonProductosNuevo:hover{
+    font-weight: normal;
+    color: white;
+    background: #FF9800;
+}
+
+
+.fotosProductoContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opcionesGrupo{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+.nuevoOBJ{
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto 5px auto auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+.inputOBJ{
+    display: flex;
+}
+
+
+.addGrupoOpciones{
+    display: none;
+    width: 100%;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    width: fill-available;    
+    height: 100%;
+    height: -moz-available;
+    height: -webkit-fill-available;
+    height: fill-available;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background: #1010108c;    
+}
+
+.addGrupoOpciones div{
+    margin: auto;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 4px solid #ff5722;
+    width: 250px;
+}
+
+.mensajeAlerta b{
+    display: block;
+    font-size: 20px;
+}
+
+.eliminarElemento{
+    margin: auto 0 auto 5px;
+    display: block;
+    color: #F44336;
+    text-transform: lowercase;
+    font-size: 20px;
+
+}
+
+.inputSubContiner{
+    display: flex;
+}
+
+.inputContinerTitulo{
+    height: fit-content;
+    margin: auto 0 5px;
+}
+
+.headerTable{
+    cursor: pointer;
+}
+
+@media (min-width: 1024px){
+    .formColumContainer{    
+        display: flex;
+    }
+}
